@@ -1,0 +1,126 @@
+.modal p{
+  margin: 0;
+  font-size: 20px;
+}
+
+.modal-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: visible;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  height: 904px;
+  width: 1920px;
+  opacity: 0;
+  transition: opacity 0.3 ease;
+  z-index: -1;
+}
+
+.modal-container.open {
+  opacity: 1;
+  z-index: 999;
+}
+
+.modal{
+  padding: 20px;
+  background-color: white;
+  width: 40%;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal p{
+  margin: 0;
+  font-size: 20px;
+}
+
+.modal-body{
+  font-size: 17px;
+}
+
+.form-control{
+  display: block;
+  color: rgb(138, 135, 135);
+  font-size: 17px;
+  border: 2px solid rgb(194, 194, 194);
+  border-radius: 2px;
+  padding: 10px 70%;
+  margin: 5px 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.modal-body label{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.btn-secondary{
+  padding: 15px;
+  color: white;
+  background-color: rgb(255, 90, 90);
+  border-width: 0px;
+}
+
+.btn-primary{
+  padding: 15px;
+  color: white;
+  background-color: rgb(79, 79, 212);
+  border-width: 0px;
+}
+
+.form-group{
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.modal-footer{
+  margin-left: 335px;
+}
+
+.modal p{
+  margin-bottom: 15px;
+}
+
+.form-group input[type=text]:focus{
+  border: 2px solid rgb(178, 231, 171);
+  border-radius: 5px;
+  color: black;
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+
+input[type=number]:focus{
+  border: 2px solid rgb(178, 231, 171);
+  border-radius: 5px;
+  color: black;
+}
+
+.size-button {
+  background-image: linear-gradient(to right, #015ad1, #1748bc);
+  border-radius: 50px;
+  border: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 25px;
+  transition: all 0.1s ease-in-out;
+  margin-top: 0px;
+}
+
+.size-button:active {
+  opacity: 0.8;
+}
+
+.size-button:focus {
+  outline: none;
+  box-shadow: 0 0 1px 2px #015ad1;
+}
